@@ -1,0 +1,203 @@
+/* to make the ssit logo and before-title in different lines */
+.homeParent{
+    display:flex;
+    flex-direction: column;
+}
+
+/* positioning of ssit logo */
+.ssit-logo{
+    padding:0;
+    margin:0;
+    margin-top:2rem;
+    margin-left:1rem;
+}
+.ssit-logo img{
+    float:left;
+    height:3rem;
+    width:auto;
+    margin-top: 30px;
+}
+/* positioning and styling of title and before title */
+.heading{
+    padding:0;
+    margin:0;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.before-title{
+    position: relative;
+    margin:0;
+    margin-top:1rem;
+    margin-bottom:0.5rem;
+    padding:0;
+    font-size:16px;
+    display:flex;
+    justify-content: center;
+    /* display:none; */
+}
+.h4ctitle{
+    width:18rem;
+    height:auto;
+    /* display: none; */
+}
+/* displaying mobile h4c logo and hiding desktop logo */
+.title{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.h4cmob{
+    display: block;
+    margin:0;
+    height:10rem;
+    margin-bottom:0.5rem;
+    margin-left: 20px;
+}
+.h4cdesk{
+    display:none;
+}
+/* styling buttons */
+.links li{
+    border:none;
+    color:#ffeded;
+    background-color:#EB1616;
+}
+/* removing desktop timer */
+.timer-mob{
+    display:none;
+}
+.timer-desk{
+    display:none;
+}
+.flexbox1{
+    flex-direction: column;
+}
+.overlay {
+    background-color: #f3f2f2;
+    width: 60px;
+    height: 140px;
+}
+
+
+/* Media Queries */
+@media (max-width: 1020px) {
+    .sectionHeader {
+        font-size: 2.2em;
+        margin: 1em 40px 8px 40px !important;
+    }
+
+    .sectionSubheader {
+        font-size: 1.2em;
+        margin: 20px 20px;
+    }
+    .domainCards {
+        flex-direction: column;
+    }
+
+    .trackCards {
+        flex-direction: column;
+        margin-left: 12%;
+        justify-content: space-around;
+    }
+
+    .trackCard {
+        width: 80% !important;
+        margin: auto;
+    }
+
+    .FAQHead {
+        color: var(--black);
+        font-size: 0.8em;
+        text-overflow: ellipsis;
+    }
+
+    .aboutUsDesc {
+        width: 80%;
+    }
+
+    .perkCards {
+        /* margin: 10%; */
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .perkCard {
+        margin: 4%;
+        width: 80%;
+    }
+
+    .perkCard i {
+        font-size: 1.8em;
+    }
+
+    .perkDesc {
+        font-size: 1.4em !important;
+    }
+
+    .sponsors {
+        width: 70%;
+        height: auto;
+        margin-left: 15%;
+    }
+
+    .speakerCards {
+        flex-direction: column;
+    }
+
+    .navbar-nav a {
+        color: var(--accentColor) !important;
+        margin: 0 4% !important;
+        padding: 10px 40px !important;
+        border-radius: 0px;
+        font-weight: bold;
+        background-color: black;
+    }
+
+    .H4CText {
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    .H4CBox {
+        display: none;
+    }
+
+    .map {
+        display: none;
+    }
+
+    .footerLogo {
+        width: 140%;
+        align-self: center;
+    }
+
+    .timer {
+        width: 80%;
+        align-self: center;
+        justify-content: center;
+        margin: auto;
+        padding: 20px 10px;
+        font-size: 1em;
+        margin-top: 6%;
+    }
+
+    .number {
+        background-color: inherit;
+        padding: 0px 0px;
+        border-radius: 0px;
+    }
+}
+
+
+.faq {
+
+    min-width:350px;
+    margin: 5px;
+    position: relative;
+    height: auto;
+  }
+
